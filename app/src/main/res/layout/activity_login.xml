@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/logo"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/font_regular"
+                        android:gravity="center"
+                        android:text="Welcome Back !"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/input_extra_curve_white_black"
+                            android:drawableStart="@drawable/ic_phone"
+                            android:drawablePadding="15dp"
+                            android:drawableTint="@color/colorPrimary"
+                            android:fontFamily="@font/font_regular"
+                            android:hint="Phone Number"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:padding="14dp"
+                            android:paddingStart="15dp"
+                            android:maxLength="10"
+                            android:singleLine="true"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp"
+                            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/input_extra_curve_white_black"
+                            android:drawableStart="@drawable/ic_baseline_lock_24"
+                            android:drawablePadding="15dp"
+                            android:drawableTint="@color/colorPrimary"
+                            android:fontFamily="@font/font_regular"
+                            android:hint="Password"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPassword"
+                            android:maxLength="15"
+                            android:padding="14dp"
+                            android:paddingStart="15dp"
+                            android:singleLine="true"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp"
+                            tools:ignore="Autofill,HardcodedText,RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/tv_error"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/font_regular"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="@color/red_500"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:visibility="visible"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/forgot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="@font/font_regular"
+                            android:gravity="start"
+                            android:text="Forgot password !"
+                            android:textColor="@color/colorSecondory"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:visibility="visible"
+                            tools:ignore="HardcodedText" />
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/extra_curve_accent_noborder"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/login"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/font_regular"
+                                android:gravity="center"
+                                android:text="LOGIN"
+                                android:textColor="#fff"
+                                android:textSize="17sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/register"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/font_regular"
+                                android:gravity="center"
+                                android:text="Don't have an account?"
+                                android:textColor="@color/black"
+                                android:textSize="17sp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/extra_curve_accent_noborder"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:fontFamily="@font/font_regular"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Register Now"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Need Help !"
+                            tools:ignore="HardcodedText" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            tools:ignore="DisableBaselineAlignment">
+
+                            <LinearLayout
+                                android:id="@+id/whatsappGroupSupport"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="12dp"
+                                    android:src="@drawable/img_social_whatsapp"
+                                    tools:ignore="ContentDescription" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/youtubeGroupSupport"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="12dp"
+                                    android:src="@drawable/youtube"
+                                    tools:ignore="ContentDescription" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/telegramGroupSupport"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <ImageView
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="12dp"
+                                    android:src="@drawable/telegram"
+                                    app:tint="@color/blue_500" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/shield"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/font_regular"
+                            android:text="मेरा मोबाइल मेरी दुकान"
+                            android:textColor="@color/black"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="4dp"
+                            android:fontFamily="@font/font_regular"
+                            android:text="Copyright @ 2024 by Kalyan Money Private Limited"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+</layout>

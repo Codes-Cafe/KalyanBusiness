@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:maxWidth">@dimen/icon_btn_min_width_height</item>
+        <item name="android:maxHeight">@dimen/icon_btn_min_width_height</item>
+        <item name="android:minWidth">@dimen/icon_btn_min_width_height</item>
+        <item name="android:minHeight">@dimen/icon_btn_min_width_height</item>
+        <item name="iconTint">?android:attr/textColorSecondary</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:gravity">center</item>
+        <item name="iconSize">24dp</item>
+        <item name="strokeColor">@android:color/transparent</item>
+        <item name="rippleColor">@android:color/transparent</item>
+
+        <item name="android:foreground">@drawable/round_ripple</item>
+
+    </style>
+
+    <style name="IconOnly.ColorPrimary">
+        <item name="iconTint">?attr/colorPrimary</item>
+    </style>
+
+
+    <style name="IconOnly.OnPrimary">
+        <item name="iconTint">?attr/colorOnPrimary</item>
+    </style>
+
+
+    <style name="RegularButton" parent="Widget.MaterialComponents.Button">
+
+    </style>
+
+    <style name="RegularOutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+
+    </style>
+
+    <style name="RegularButton.RoundedCorners">
+        <item name="android:minWidth">250dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="RegularButton.RoundedCorners.Green">
+        <item name="backgroundTint">@color/green</item>
+    </style>
+
+    <dimen name="icon_btn_min_width_height">36dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="toggle_btn_text_size">12sp</dimen>
+
+    <style name="IconOnly.BigIcon">
+        <item name="iconSize">36dp</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="TextAppearance.MdcTypographyStyles.Caption.Black">
+<item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Caption.MoreSmall.Regular" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Caption.MoreSmall">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Caption.MoreSmall.Light">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline6.OnPrimary">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline5.OnPrimary">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Headline6.ColorPrimary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body1.Light">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body1.ColorSecondary">
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Body2.Light">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+
+    </style>
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle2.Small.Bold" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">11sp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.MdcTypographyStyles.Subtitle2.ColorPrimary" >
+        <item name="android:textColor">?attr/colorPrimary</item>
+
+
+    </style>
+
+    <style name="TextIconButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="iconTint">?attr/colorSecondary</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="iconPadding">@dimen/margin_normal</item>
+        <item name="android:textAppearance">@style/TextAppearance.MdcTypographyStyles.Body2</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">24dp</item>
+
+    </style>
+
+
+    <style name="TextAppearance.MdcTypographyStyles.Button" parent="TextAppearance.MaterialComponents.Button">
+
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:includeFontPadding">false</item>
+
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/dark_grey</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeWidth">@dimen/box_stroke_width</item>
+        <item name="placeholderTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeColor">?attr/colorSecondary</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="boxBackgroundColor">?attr/colorPrimary</item>
+        <item name="colorControlNormal">@color/lightBlack</item>
+        <item name="colorControlHighlight">?attr/colorSecondary</item>
+        <item name="android:colorControlHighlight">?attr/colorSecondary</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/box_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/box_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/box_corner_radius</item>
+        <item name="boxCornerRadiusTopStart">@dimen/box_corner_radius</item>
+    </style>
+
+    <style name="TextInputLayoutStyle.NoInput">
+        <item name="endIconMode">custom</item>
+        <item name="endIconDrawable">@drawable/ic_baseline_arrow_drop_down</item>
+    </style>
+
+    <style name="TextInputLayoutStyleOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">@color/dark_grey</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeWidth">@dimen/box_stroke_width</item>
+        <item name="placeholderTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeColor">?attr/colorSecondary</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="colorControlNormal">@color/lightBlack</item>
+        <item name="colorControlHighlight">?attr/colorSecondary</item>
+        <item name="android:colorControlHighlight">?attr/colorSecondary</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/box_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/box_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/box_corner_radius</item>
+        <item name="boxCornerRadiusTopStart">@dimen/box_corner_radius</item>
+    </style>
+
+    <style name="TextInputLayoutStyleOutlined.NoInput">
+        <item name="endIconMode">custom</item>
+        <item name="endIconDrawable">@drawable/ic_baseline_arrow_drop_down</item>
+    </style>
+
+    <style name="TextInputLayoutStyleOutlined.PickTime">
+        <item name="endIconMode">custom</item>
+        <item name="endIconDrawable">@drawable/ic_small_clock</item>
+        <item name="endIconTint">?attr/colorSecondary</item>
+    </style>
+
+    <style name="TextInputLayoutStyle.DropDown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="android:textColorHint">@color/dark_grey</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeWidth">@dimen/box_stroke_width</item>
+        <item name="placeholderTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeColor">?attr/colorSecondary</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="colorControlNormal">@color/lightBlack</item>
+        <item name="colorControlHighlight">?attr/colorSecondary</item>
+        <item name="android:colorControlHighlight">?attr/colorSecondary</item>
+    </style>
+
+
+    <style name="TextInputEditText">
+        <item name="android:textCursorDrawable">@drawable/text_cursor_drawable</item>
+        <item name="android:textAppearance">
+            @style/TextAppearance.MdcTypographyStyles.Body2
+        </item>
+        <item name="colorControlNormal">@color/lightBlack</item>
+        <item name="colorControlHighlight">?attr/colorSecondary</item>
+        <item name="android:colorControlHighlight">?attr/colorSecondary</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="android:colorAccent">?attr/colorSecondary</item>
+        <item name="android:textColorHighlight">?attr/colorSecondary</item>
+        <item name="colorControlActivated">?attr/colorSecondary</item>
+        <item name="android:colorControlActivated">?attr/colorSecondary</item>
+    </style>
+
+    <style name="TextInputEditText.NoInput">
+        <item name="android:focusable">false</item>
+        <item name="maxLines">1</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextInputEditText.NoInput.V2">
+        <item name="android:focusable">false</item>
+        <item name="android:maxLines">6</item>
+    </style>
+
+
+    <style name="TextInputEditText.Login">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">
+            @style/TextAppearance.MdcTypographyStyles.Subtitle1
+        </item>
+    </style>
+
+
+    <style name="IconOnly.FilledRound">
+        <item name="iconTint">?attr/colorOnPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">200dp</item>
+        <item name="android:foreground">@drawable/round_ripple</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="IconOnly.FilledRound.Small">
+        <item name="android:maxWidth">@dimen/icon_btn_min_width_height_small</item>
+        <item name="android:maxHeight">@dimen/icon_btn_min_width_height_small</item>
+        <item name="android:minWidth">@dimen/icon_btn_min_width_height_small</item>
+        <item name="android:minHeight">@dimen/icon_btn_min_width_height_small</item>
+        <item name="iconSize">16dp</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="textInputlayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!--   <item name="android:colorControlActivated" tools:targetApi="lollipop">@color/light_blue
+           </item>
+           <item name="android:textColorHint">@color/lightBlack</item>
+           <item name="boxStrokeColor">@color/lightBlack</item>
+           <item name="boxStrokeWidth">2dp</item>-->
+        <item name="android:textColorHint">@color/dark_grey</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeWidth">@dimen/box_stroke_width</item>
+        <item name="placeholderTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeColor">?attr/colorSecondary</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="colorControlNormal">@color/lightBlack</item>
+        <item name="colorControlHighlight">?attr/colorSecondary</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+
+        <item name="android:colorControlHighlight">?attr/colorSecondary</item>
+
+
+    </style>
+
+    <style name="textInputlayoutStyle.otp" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+    </style>
+    <style name="textInputlayoutStyle.DropDown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <!--   <item name="android:colorControlActivated" tools:targetApi="lollipop">@color/light_blue
+           </item>
+           <item name="android:textColorHint">@color/lightBlack</item>
+           <item name="boxStrokeColor">@color/lightBlack</item>
+           <item name="boxStrokeWidth">2dp</item>-->
+        <item name="android:textColorHint">@color/dark_grey</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeWidth">@dimen/box_stroke_width</item>
+        <item name="placeholderTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeColor">?attr/colorSecondary</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="colorControlNormal">@color/lightBlack</item>
+        <item name="colorControlHighlight">?attr/colorSecondary</item>
+        <item name="android:colorControlHighlight">?attr/colorSecondary</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+
+
+    </style>
+
+    <style name="CustomBottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheet</item>
+    </style>
+
+    <style name="CustomBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>
+    </style>
+
+    <style name="CustomShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="ToggleButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerFamily">rounded</item>
+        <item name="android:paddingLeft">@dimen/margin_small</item>
+        <item name="android:paddingRight">@dimen/margin_small</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/margin_normal</item>
+        <item name="android:textAppearance">@style/TextAppearance.MdcTypographyStyles.Button</item>
+        <item name="android:textSize">@dimen/toggle_btn_text_size</item>
+        <item name="android:textColor">@color/toggle_button_text_color_selector</item>
+        <item name="strokeColor">@color/toggle_btn_stroke_color</item>
+        <item name="rippleColor">@color/toggle_btn_ripple_color</item>
+        <item name="backgroundTint">@color/toggle_btn_background_selector</item>
+        <item name="android:minHeight">45dp</item>
+    </style>
+
+    <style name="ToggleButton.IconOnly">
+        <item name="iconPadding">0dp</item>
+
+
+    </style>
+
+    <style name="ThemeAlphaCare" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.MdcTypographyStyles.Body2</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <item name="bottomSheetDialogTheme">@style/CustomBottomSheetDialog</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeAlphaCare.NoActionBar" parent="ThemeAlphaCare">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:gravity">left</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+    </style>
+
+    <style name="TextviewNormal" parent="TextAppearance.MdcTypographyStyles.Body2">
+
+    </style>
+
+    <style name="MyEditText" parent="TextviewNormal">
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+
+    <style name="MyEditText.otp">
+        <item name="android:maxLength">4</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/TextAppearance.MdcTypographyStyles.Button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MaterialButton.BigInset">
+        <item name="android:insetTop">@dimen/btn_big_inset</item>
+        <item name="android:insetBottom">@dimen/btn_big_inset</item>
+    </style>
+
+    <style name="MaterialButton.Round.InsetHigh" parent="MaterialButton.BigInset">
+        <item name="cornerRadius">@dimen/round_btn_corner_size</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+    </style>
+
+    <dimen name="round_btn_corner_size">20dp</dimen>
+    <dimen name="icon_btn_min_width_height_small">30dp</dimen>
+
+
+    <style name="EditTextSearch" parent="TextInputEditText">
+        <item name="android:background">@drawable/bg_card_round</item>
+        <item name="android:elevation">4dp</item>
+        <item name="drawableStartCompat">@drawable/ic_search_black_24dp</item>
+        <item name="android:padding">@dimen/margin_normal</item>
+        <item name="android:layout_margin">@dimen/margin_large</item>
+        <item name="android:drawablePadding">@dimen/margin_normal</item>
+    </style>
+
+    <style name="CardStyleLayoutWithMargins">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/bg_white_slightly_rounded</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>

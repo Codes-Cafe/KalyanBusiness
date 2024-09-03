@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+
+    <ImageView
+        android:id="@+id/LogoSplash"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        />
+
+    <ImageView
+        android:id="@+id/slice2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/slice2"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:id="@+id/slice1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/slice1"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

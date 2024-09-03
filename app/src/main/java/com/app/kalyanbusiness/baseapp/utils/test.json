@@ -1,0 +1,26 @@
+{
+  "data": {
+    "dob": "2021-09-15T00:00:00+00:00",
+    "email": "labadmin@getnada.com",
+    "expiredOn": "2022-06-09T11:10:10+00:00",
+    "genderId": 10,
+    "genderName": "Female",
+    "isAuthenticated": true,
+    "isVerify": true,
+    "name": "Berlin Patient",
+    "phoneNumber": "+12097895638",
+    "picturePath": "https://alcstorages.blob.core.windows.net/alfacare/08062022113613_2013-Jamboree-Boardwalk-Banner-1400x200.jpg",
+    "rate": 0,
+    "referenceId": 76,
+    "roleId": 1,
+    "titleId": 1,
+    "titleName": "Mr",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiMSIsIlBhdGllbnQiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJlcmxpbjcyODgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIxOCIsIlJlZmVyZW5jZUlkIjoiNzYiLCJUaW1lWm9uZSI6IkFzaWEvS2FyYWNoaSIsImV4cCI6MTY1NDc3MzAxMH0.MZqQErooEA9NSypHw_DD-n4uwaX0P5a4l2nHgkh8was",
+    "userId": 218,
+    "userName": "Berlin7288"
+  },
+  "message": "Success",
+  "status": 1,
+  "succeeded": false,
+  "totalData": 0
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupplierHub.fragments.SupplierHomeFragment"
+    android:background="@color/offwhite">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/TextAppearance.MdcTypographyStyles.Headline6.OnPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:text="Welcome back, Kalyan Money"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/tvDescription"
+                style="@style/TextAppearance.MdcTypographyStyles.Headline6.OnPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:text="Manage and grow your business"
+                android:textColor="@color/grey_40"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius_round">200dp</dimen>
+    <dimen name="profile_image_home">56dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_extra_large">24dp</dimen>
+    <dimen name="box_stroke_width">1dp</dimen>
+
+    <dimen name="btn_height">55dp</dimen>
+    <dimen name="btn_radius">5dp</dimen>
+    <dimen name="btn_text_size">14dp</dimen>
+
+    <dimen name="edit_text_size">15dp</dimen>
+
+    <dimen name="heading_size">20dp</dimen>
+    <dimen name="email_size">18dp</dimen>
+    <dimen name="text_view_size">18dp</dimen>
+    <dimen name="text_view_padding">3dp</dimen>
+
+    <dimen name="small_icon_size">30dp</dimen>
+
+    <dimen name="dashboard_card_view_height">65dp</dimen>
+    <dimen name="icon_normal">24dp</dimen>
+
+    <dimen name="padding_mini">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_extra_large">24dp</dimen>
+
+    <dimen name="btn_big_inset">8dp</dimen>
+
+
+    <dimen name="icon_small">24dp</dimen>
+
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_subheading">14sp</dimen>
+    <dimen name="text_size_edittext">17sp</dimen>
+    <dimen name="line_height">24dp</dimen>
+
+    <dimen name="margin_mini">2dp</dimen>
+    <dimen name="margin_huge">40dp</dimen>
+    <dimen name="margin_humungous">60dp</dimen>
+    <dimen name="margin_extra_humungous">70dp</dimen>
+
+    <dimen name="btn_round_radius">10dp</dimen>
+    <dimen name="btn_min_height">40dp</dimen>
+    <dimen name="btn_medium_height">55dp</dimen>
+    <dimen name="btn_max_height">70dp</dimen>
+
+    <dimen name="card_radius_login">15dp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="landing_page_lines_width">60dp</dimen>
+    <dimen name="box_corner_radius">5dp</dimen>
+    <dimen name="drawer_header_radius">50dp</dimen>
+    <dimen name="top_right_curved_bg_radius">65dp</dimen>
+    <dimen name="edu_text_width">150dp</dimen>
+    <dimen name="black_outline_width">4dp</dimen>
+    <dimen name="collapsing_bar_height">100dp</dimen>
+    <dimen name="bottom_curve_radius">30dp</dimen>
+    <dimen name="bottom_curve_radius_small">20dp</dimen>
+
+    <dimen name="grey_dot_size">12dp</dimen>
+
+</resources>

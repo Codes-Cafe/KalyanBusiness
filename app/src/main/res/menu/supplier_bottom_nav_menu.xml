@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_supplier_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_csm_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/item_supplier_orders"
+        android:enabled="true"
+        android:icon="@drawable/category"
+        android:title="Orders" />
+
+    <item
+        android:id="@+id/item_supplier_returns"
+        android:enabled="true"
+        android:icon="@drawable/my_order"
+        android:title="Returns" />
+
+    <item
+        android:id="@+id/item_supplier_inventory"
+        android:enabled="true"
+        android:icon="@drawable/ic_csm_profile"
+        android:title="Inventory" />
+
+    <item
+        android:id="@+id/item_supplier_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="Menu" />
+
+
+
+</menu>
